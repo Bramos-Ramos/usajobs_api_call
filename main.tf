@@ -7,18 +7,6 @@ terraform {
 }
 
 
-module "provider" {
-  source = "./modules"
-}
-
-module "budgets" {
-  source = "./modules"
-}
-
-module "ecs" {
-  source = "./modules"
-}
-
-module "cloudwatch" {
+module "modules" {
   source = "./modules"
 }
