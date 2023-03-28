@@ -10,12 +10,6 @@ Before running this project, you'll need the following:
 
 You'll also need to set up an AWS account and an IAM user with permissions to create and manage the infrastructure resources required by this project.
 
-## Tasman
-
-For this case specifically, I created a RDS PostgreSQL instance wich I sent the credentials by email earlier on.
-
-Also I created a IAM user so you can check the whole infrastructure.
-
 ## API Call
 
 For this project I created a python file which extracts data related to the keyword "data engineering" as requested per the test.
